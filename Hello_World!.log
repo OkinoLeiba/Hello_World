@@ -1,0 +1,14 @@
+﻿  Hello_World!.cpp
+c:\users\owner\source\repos\hello_world!\hello_world!.cpp(19): error C4596: 'World': illegal qualified name in member declaration
+c:\users\owner\source\repos\hello_world!\hello_world!.cpp(19): error C2460: 'World': uses 'Other_World', which is being defined
+  c:\users\owner\source\repos\hello_world!\hello_world!.cpp(17): note: see declaration of 'Other_World'
+c:\users\owner\source\repos\hello_world!\hello_world!.cpp(19): error C2433: 'World': 'friend' not permitted on data declarations
+c:\users\owner\source\repos\hello_world!\hello_world!.cpp(20): error C2825: 'World': must be a class or namespace when followed by '::'
+c:\users\owner\source\repos\hello_world!\hello_world!.cpp(20): error C2510: 'World': left of '::' must be a class/struct/union
+c:\users\owner\source\repos\hello_world!\hello_world!.cpp(35): error C2248: 'Other_World::func_world': cannot access private member declared in class 'Other_World'
+  c:\users\owner\source\repos\hello_world!\hello_world!.cpp(20): note: see declaration of 'Other_World::func_world'
+  c:\users\owner\source\repos\hello_world!\hello_world!.cpp(17): note: see declaration of 'Other_World'
+c:\users\owner\source\repos\hello_world!\hello_world!.cpp(40): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'Other_World'
+c:\users\owner\source\repos\hello_world!\hello_world!.cpp(46): error C2248: 'Other_World::func_world': cannot access private member declared in class 'Other_World'
+  c:\users\owner\source\repos\hello_world!\hello_world!.cpp(20): note: see declaration of 'Other_World::func_world'
+  c:\users\owner\source\repos\hello_world!\hello_world!.cpp(17): note: see declaration of 'Other_World'
